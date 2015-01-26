@@ -5,11 +5,11 @@ module OmniAuth
     class Headquarters < ::OmniAuth::Strategies::OAuth2
       include ::OmniAuth::Strategy
 
-      URL      = 'https://hq.groupbuddies.com'
-      PATH     = '/admin/hq/authorize'
+      URL      = ENV['HQ_URL'] || 'http://localhost:3000'
+      PATH     = '/oauth/authorize'
 
       option :name, :headquarters
-      option :client_options, site: URL, authorize_path: PATH
+      option :client_options, site: URL, authorize_url: PATH
 
       uid do
         raw_info['id']
