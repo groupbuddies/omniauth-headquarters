@@ -21,7 +21,7 @@ module OmniAuth
         end
 
         it 'should have correct site' do
-          expect(subject.options.client_options.site).to eq('https://hq.groupbuddies.com')
+          expect(subject.options.client_options.site).to eq('https://hq.subvisual.co')
         end
       end
     end

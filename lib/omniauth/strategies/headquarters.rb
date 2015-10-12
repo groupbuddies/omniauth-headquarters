@@ -5,7 +5,7 @@ module OmniAuth
     class Headquarters < ::OmniAuth::Strategies::OAuth2
       include ::OmniAuth::Strategy
 
-      URL      = ENV['HQ_URL'] || 'https://hq.groupbuddies.com'
+      URL      = ENV['HQ_URL'] || 'https://hq.subvisual.co'
       PATH     = '/oauth/authorize'
 
       option :name, :headquarters

@@ -7,10 +7,10 @@ Gem::Specification.new do |spec|
   spec.name          = 'omniauth-headquarters'
   spec.version       = Omniauth::Headquarters::VERSION
   spec.authors       = ['Miguel Palhas']
-  spec.email         = ['mpalhas@groupbuddies.com']
+  spec.email         = ['miguel@subvisual.com']
   spec.summary       = 'OAuth2 strategy for the Headquarters API, by Group Buddies'
   spec.description   = 'OAuth2 strategy for the Headquarters API, by Group Buddies'
-  spec.homepage      = 'https://github.com/groupbuddies/omniauth-headquarters'
+  spec.homepage      = 'https://github.com/subvisual/omniauth-headquarters'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0")
